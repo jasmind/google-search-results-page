@@ -232,6 +232,70 @@ nav a:hover {
   color: green;
 }
 
+.feedback-content {
+  padding-left: 600px;
+  padding-top: 5px;
+}
+
+.feedback {
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 13px;
+  color: var(--footer-links);
+}
+
+.feedbackcont {
+  margin-left: 150px;
+  width: 630px;
+  text-align: right;
+  padding-top: 5px;
+}
+
+.arrow {
+  background-image: url(../images/arrow-down.png);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: contain;
+  float: right;
+  margin-right: 20px;
+}
+
+.search-links {
+  margin-left: 150px;
+  border: 1px solid var(--light-grey);
+  width: 630px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.search-links  p {
+  font-size: 20px;
+  color: var(--footer-links);
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.search-links ul {
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.search-links ul li {
+  border-bottom: 1px solid var(--light-grey);
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.feedback {
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 13px;
+  color: var(--footer-links);
+  padding-top: 5px;
+}
+
 .main {
   display: inline-block;
   width: 500px;

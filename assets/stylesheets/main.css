@@ -296,10 +296,35 @@ nav a:hover {
   padding-top: 5px;
 }
 
-.main {
-  display: inline-block;
-  width: 500px;
-  float: left;
+#main {
+  margin-left: 150px;
+  width: 630px;
+  height: auto;
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+#main div a {
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+#main div cite {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#main div p {
+  font-size: 13px;
+  color: var(--footer-links);
+  line-height: 1.5;
+}
+
+.result {
+  margin-bottom: 25px;
 }
 
 .search-container {
@@ -411,8 +436,8 @@ nav a:hover {
 
 footer {
   background-color: var(--footer-bg);
-  bottom: 0;
-  position: absolute;
+/*  bottom: 0;
+  position: absolute;*/
   width: 100%;
 }
 

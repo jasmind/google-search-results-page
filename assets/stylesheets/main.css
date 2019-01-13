@@ -458,7 +458,7 @@ nav a:hover {
 }
 
 
-/*.search-container {
+.search-container {
   height: auto;
   width: 600px;
   display: inline-block;
@@ -466,9 +466,9 @@ nav a:hover {
   left: 0;
   margin-left: 150px;
   top: 20px;
-}*/
+}
 
-/*.search-form {
+.search-form {
   height: 100%;
 }
 
@@ -503,7 +503,7 @@ nav a:hover {
 .btn:hover {
   border: 1px solid var(--light-grey);
   color: var(--black);
-}*/
+}
 
 .languages {
   font-size: 13px;
@@ -583,13 +583,6 @@ footer {
   display: inline-block;
   float: left;
 }
-
-
-/*.footer-links li:nth-last-child(1),
-.footer-links li:nth-last-child(2),
-.footer-links li:nth-last-child(3) {
-  float: none;
-}*/
 
 .footer-links li a {
   color: var(--footer-links);
